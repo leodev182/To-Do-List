@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="checkbox" id="cheque" onclick="isChecked();" />
+    <p></p>
+    <script>
+      function isChecked() {
+        if (document.querySelector("#cheque").checked) {
+          document.querySelector("p").textContent = "JUEPUTA";
+        } else {
+          document.querySelector("p").textContent = "no sibe";
+        }
+      }
+    </script>
+  </body>
+</html>
